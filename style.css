@@ -1,0 +1,37 @@
+.container {
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+.box1 {
+	position: absolute;
+  	width: 300px;
+  	height: 300px;
+ 	padding: 10px;
+  	border: 1px solid black;
+}
+
+.box2 {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	padding: 10px;
+	background-color: red;
+	bottom: 179px;
+	right: 179px;
+}
+
+.box3 {
+  	position: absolute;
+  	width: 75px;
+  	height: 75px;
+  	padding: 10px;
+  	text-align: center;
+  	background-color: limegreen;
+  	display: table-cell;
+  	vertical-align: middle;
+  	line-height: 75px;
+  	bottom: 254px;
+  	right: 215px;
+}
